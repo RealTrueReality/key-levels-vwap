@@ -6,6 +6,28 @@ An independent Pine Script v6 community modification of [Key Levels SpacemanBTC 
 
 This project is not an official SpacemanBTC release. The inherited key-level and display framework remains credited to its original authors.
 
+## Usage screenshots / 使用示例
+
+### Chart overview / 图表效果
+
+Actual TradingView screenshot of **OKX:BTCUSDT.P · 15 minutes**. Cyan, pale yellow and teal curves show the developing daily, weekly and monthly VWAP. Dashed horizontal lines show the completed previous-week and previous-month VWAP. Daily, weekly and monthly opens are also enabled; other key levels are disabled for clarity.
+
+实际 TradingView **OKX BTCUSDT 永续 · 15 分钟**截图。青蓝、淡黄和青绿色曲线分别为日、周、月 VWAP；虚线为上一完整周、上一完整月的最终 VWAP 固定参考线。示例同时开启日、周、月开盘价，并关闭其他关键价位以减少拥挤。
+
+![TradingView chart showing daily, weekly, monthly and previous-period VWAP / 日周月及上一周期 VWAP 图表](chart-overview.jpg)
+
+Display: **Standard** · Distance: **5** · Text size: **Medium** · VWAP source: **HLC3** · VWAP width: **2**. The chart's Canvas → Right margin is set to **45 bars** to leave space for labels.
+
+显示方式 **Standard**，Distance **5**，文字大小 **Medium**，VWAP 来源 **HLC3**、线宽 **2**；图表设置的 Canvas → Right margin 为 **45 根 K 线**，为右侧标签预留空间。
+
+### VWAP inputs / VWAP 设置
+
+Open the indicator's **Settings → Inputs** and scroll to **VWAP**. Enable **Daily / Weekly / Monthly** for current curves. Enable **Prev Weekly / Prev Monthly** for fixed previous-period references; these two optional references are off by default and are enabled in this example.
+
+打开指标的 **Settings → Inputs**，向下滚动至 **VWAP**。勾选 **Daily / Weekly / Monthly** 显示当前周期曲线；勾选 **Prev Weekly / Prev Monthly** 显示上一周期固定参考线。这两个可选开关默认关闭，示例中已开启。
+
+![TradingView indicator inputs with five VWAP references enabled, HLC3 source and width 2 / VWAP 参数设置](vwap-settings.jpg)
+
 ## English
 
 ### Features
